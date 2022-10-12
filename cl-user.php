@@ -9,7 +9,6 @@
  * @return bool
  */
 function cl_check_user_role( $role, $user_id = null ) {
- 
     if ( is_numeric( $user_id ) ) {
 	    $user = get_userdata( $user_id );
     } else {
